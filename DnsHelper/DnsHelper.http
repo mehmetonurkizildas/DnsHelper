@@ -1,0 +1,14 @@
+@DnsHelper_HostAddress = http://localhost:5037
+
+
+GET {{DnsHelper_HostAddress}}/dnshelper/GetARecords?domain=google.com
+
+###
+
+GET {{DnsHelper_HostAddress}}/dnshelper/GetMxRecords?domain=google.com
+
+###
+
+GET {{DnsHelper_HostAddress}}/dnshelper/GetNsRecords?domain=google.com
+
+###
